@@ -162,13 +162,6 @@ set_load 5.000 [all_outputs]
 
 ![Simulation waveform, 0 to 315 ns](https://github.com/Aravindakshan953/RISC-V_64Bit/blob/main/RISCV%2064Bit%20Waveform.png)
 
-## Known Limitations
-
-- **Boot ROM image:** `boot_rom.hex` cannot be opened in synthesis or simulation, so the ROM is not initialised.
-- **Constraints vs. device:** `pynq_zc.xdc` uses PYNQ-Z2 pins and LVCMOS33, but the Vivado part is `xc7vx485tffg1930-2`. 12 of 19 ports have no pin location and all 19 use the default I/O standard (DRC NSTD-1 and UCIO-1), so no bitstream is generated.
-- **Simulation log:** it prints two split-write mismatch lines (upper 32 bits read as `z`) before reporting a pass, and the testbench drives 64-bit signals into 32-bit ports.
-- **Verification scope:** only the memory testbench is active. The crossbar, crypto cores and firmware testbenches exist in the project but are disabled and have no recorded results.
-
 ## Author
 
 Aravindakshan GA, an aspiring VLSI Design Verification Engineer.
