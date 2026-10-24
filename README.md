@@ -117,7 +117,7 @@ All user-specified timing constraints are met.
 | Hold (WHS / THS) | 0.069 ns | 0.000 ns | 0 | 23,787 |
 | Pulse width (WPWS / TPWS) | 2.000 ns | 0.000 ns | 0 | 8,376 |
 
-![Vivado Design Timing Summary][img-timing]
+![Vivado Design Timing Summary](https://github.com/Aravindakshan953/RISC-V_64Bit/blob/main/RISCV-64Bit%20Timing.png)
 
 ### Power
 
