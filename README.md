@@ -135,7 +135,7 @@ Total on-chip power is 0.712 W (typical process). Static power is 73% of the tot
 | Effective θJA | 4.6 °C/W |
 | Confidence level | Medium |
 
-![Vivado power summary][img-power]
+![Vivado power summary](https://github.com/Aravindakshan953/RISC-V_64Bit/blob/main/RISCV%20Power%20constraint.png)
 
 ## Constraints (`pynq_zc.xdc`, excerpt)
 
