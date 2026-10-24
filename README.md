@@ -44,7 +44,7 @@ graph TD
 
 **Clocking.** The 125 MHz board clock (`sys_clk_pin`, 8.000 ns) feeds one MMCM (multiply 8, output divide 20) that produces the 50 MHz `clk50_mmcm` (20.000 ns) used by the SoC. The PicoRV32 hardware multiplier and divider are disabled, so the design uses 0 DSP slices.
 
-![Synthesized schematic of the board-level wrapper][img-schematic]
+![Synthesized schematic of the board-level wrapper][https://github.com/Aravindakshan953/RISC-V_64Bit/blob/main/RISC-V%2064bit%20Synthesized%20.png]
 
 *Synthesized schematic of the board-level wrapper: 357 cells, 19 I/O ports and 2,251 nets.*
 
