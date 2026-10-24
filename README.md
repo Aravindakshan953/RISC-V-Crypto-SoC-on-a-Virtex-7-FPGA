@@ -160,7 +160,7 @@ set_load 5.000 [all_outputs]
 
 `tb_axi_lite_mem` exercises the AXI4-Lite ROM and RAM in the Vivado simulator (315 ns). After `rst_n` is released it performs two writes (address `0x4` with data `0xaabbccdd`, then `0x8` with `0x11223344`, byte strobes `0xf`), each followed by a write response, then two reads at the same addresses, each returning a read response.
 
-![Simulation waveform, 0 to 315 ns][img-waveform]
+![Simulation waveform, 0 to 315 ns](https://github.com/Aravindakshan953/RISC-V_64Bit/blob/main/RISCV%2064Bit%20Waveform.png)
 
 ## Known Limitations
 
